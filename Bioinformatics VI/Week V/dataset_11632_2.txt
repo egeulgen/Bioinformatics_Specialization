@@ -1,0 +1,10 @@
+0.242
+--------
+A	B	C	D	E
+--------
+C-AAA-E--
+DA-C-EEBB
+DEC--EEBB
+DE-EDEBBB
+--EEAEC-B
+DEAD--E-B

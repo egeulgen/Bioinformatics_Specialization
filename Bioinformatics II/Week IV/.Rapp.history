@@ -1,0 +1,70 @@
+source("http://bioconductor.org/biocLite.R")#
+biocLite("GoogleGenomics")
+require(GoogleGenomics)#
+GoogleGenomics::authenticate("/PATH/TO/YOUR/client_secrets.json")
+require(GoogleGenomics)#
+GoogleGenomics::authenticate("client_secrets.json")
+tmp = c("ege","ulgen")
+tmp
+paste(tmp)
+paste(tmp,sep=",")
+paste(c(tmp),sep=",")
+paste(tmp,collapse=",")
+paste(tmp,collapse=", ")
+sample(1:27,27)
+citation("org.hs.eg.db")
+source("http://bioconductor.org/biocLite.R")#
+biocLite("BSgenome.Hsapiens.1000genomes.hs37d5")
+"3" > "11"
+"10" > "3"
+"10.3" > "3"
+"67.9414" > "3"
+"31.1" > "3"
+"29.9034" > "3"
+"18" > "3"
+install.packages("pwr")
+library(pwr)
+pwr.chisq.test( w = 0.1, N = 20, df = 19, 0.05)
+vec1 <- c(1, 2, 3, 4)
+vec2 <- c("b", "c","a","d")
+tapply(vec1, vec3, identity)
+tapply(vec1, vec2, identity)
+length("Visualizing: nucleoside_metabolic_process(5)                  )                             ity(3)                  transferase_complex(8)                                  transcription(7)")
+nchar("Visualizing: nucleoside_metabolic_process(5)                  )                             ity(3)                  transferase_complex(8)                                  transcription(7)")
+current_row <- list()
+current_row$Pathway = "abasd"
+cat(paste0("Visualizing: ", current_row$Pathway,#
+               rep(" ", 200), "\r"))
+for(letter in c("a", "b", "c")) {}
+for(letter in c("a", "b", "c")) {#
+}
+for(letter in c("a", "b", "c")) {#
+cat(paste0("Visualizing: ", rep(letter, 200),#
+                 rep(" ", 200), "\r"))#
+}
+rep(letter, 200)
+for(letter in c("a", "b", "c")) {#
+cat(paste0("Visualizing: ", rep(letter, 200),#
+                 rep(" ", 200), "\r", collapse = ""))#
+}
+setwd("~/Dropbox/Online Courses/Bioinformatics II/Week IV")
+tmp <- read.table("real_spectrum.txt")
+tmp
+tmp <- tmp[1,]
+tmp
+hist(tmp)
+tmp
+tmp[1]
+is.numeric(tmp)
+tmp[2]
+tmp[3]
+is.numeric(tmp[3])
+as.numeric(tmp)
+tmp <- as.numeric(tmp)
+hist(tmp)
+length(tmp)
+range(tmp)
+length(seq(370, 1268, 10))
+length(seq(370, 1268, 15))
+hist(tmp, breaks = 50)
+table(tmp)
