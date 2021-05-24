@@ -13,6 +13,18 @@ def LCSBackTrack(v, w):
                 Backtrack[i][j] = 2
             else:
                 Backtrack[i][j] = 4
+
+    LCS = []
+    while i > 0 and j > 0:
+        if Backtrack[i][j] == 4:
+            LCS.append(v[i])
+            i -= 1
+            j -= 1
+        elif Backtrack[i][j] == 2:
+            j -= 1
+        else:
+            i -= 1
+
     return Backtrack
 
 # def OutputLCS(Backtrack, V, i, j):
